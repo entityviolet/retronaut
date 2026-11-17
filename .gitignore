@@ -1,0 +1,39 @@
+# build output
+.build/
+build/
+xtool/
+.bsp/
+out/
+DerivedData/
+*.ipa
+*.app
+*.dSYM/
+.swiftpm/
+
+# binaries and images that must never land in the repo
+*.img
+*.iso
+*.bin
+OS/
+release-packs/
+store/
+
+# signing material
+*.p12
+*.mobileprovision
+*.cer
+*.key
+*.pem
+
+# secrets
+.env
+.env.*
+*.token
+secrets/
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.xcuserstate
+*.swp
